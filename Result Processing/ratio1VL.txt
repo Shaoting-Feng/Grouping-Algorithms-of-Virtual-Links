@@ -1,0 +1,19 @@
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['All in One VL', 'Previous Work', 'Our Algorithm', 'Actual BAG & MTU']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [1, 0.6441, 0.6276, 0.5980],
+      type: 'bar',
+      showBackground: true,
+      backgroundStyle: {
+        color: 'rgba(180, 180, 180, 0.2)'
+      }
+    }
+  ]
+};

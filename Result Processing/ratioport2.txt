@@ -1,0 +1,19 @@
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['All in One VL', 'Our Algorithm']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [0.1536, 0.1157],
+      type: 'bar',
+      showBackground: true,
+      backgroundStyle: {
+        color: 'rgba(180, 180, 180, 0.2)'
+      }
+    }
+  ]
+};
